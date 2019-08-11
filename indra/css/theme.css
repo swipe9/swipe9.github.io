@@ -127,7 +127,7 @@ h6,
   line-height: 2.16666667em;
 }
 .lead {
-  font-size: 1.35714286em;
+  font-size: 1.17em;
   line-height: 1.68421053em;
 }
 @media all and (max-width: 767px) {
@@ -3539,7 +3539,7 @@ div[class*='col-'] > div[class*='col-']:last-child {
     margin-top: 5.57142857em;
   }
   .mb--1 {
-    margin-bottom: 1.85714286em;
+    margin-bottom: 1.85714286em; !important
   }
   .mb--2 {
     margin-bottom: 3.71428571em;
@@ -3579,7 +3579,7 @@ section.unpad--top {
   margin-bottom: 0;
 }
 .unmarg {
-  margin: 0;
+  margin: 0; !important
 }
 .unmarg--top {
   margin-top: 0;
@@ -4078,8 +4078,8 @@ blockquote > p {
 }
 h4,
 .h4 {
-  margin-bottom: 1.36842105263158em;
-  font-weight: 400;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 h4.inline-block + .h4.inline-block:not(.typed-text),
 .h4.inline-block + .h4.inline-block:not(.typed-text) {
@@ -5773,8 +5773,8 @@ body.dropdowns--hover .nav-sidebar-column .dropdown:hover > .dropdown__container
 .checkmark {
   display: inline-block;
   position: relative;
-  width: 1.23809524em;
-  height: 1.23809524em;
+  width: 0.83809524em;
+  height: 0.83809524em;
   border-radius: 50%;
   text-align: center;
 }
@@ -5784,7 +5784,7 @@ body.dropdowns--hover .nav-sidebar-column .dropdown:hover > .dropdown__container
 .checkmark:before {
   content: '\2713';
   color: #fff;
-  font-size: 11px;
+  font-size: 40px;
   position: absolute;
   width: 100%;
   left: 0;
