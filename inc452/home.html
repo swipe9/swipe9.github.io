@@ -24,8 +24,8 @@
     </head>
     <body class=" ">
         <a id="start"></a>
-        <div class="nav-container ">
-            <div class="bar bar--sm visible-xs">
+           <div class="nav-container ">
+            <div class="bar bar-3 bar--sm visible-xs">
                 <div class="container">
                     <div class="row">
                         <div class="col-3 col-md-2">
@@ -45,38 +45,33 @@
                 <!--end of container-->
             </div>
             <!--end bar-->
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent" data-scroll-class="100px:pos-fixed">
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute " data-scroll-class="50px:pos-fixed">
                 <div class="container ">
-                    <div class="row">
-                        <div class="col-lg-1 col-md-2 hidden-xs">
+                    <div class="row ">
+                        <div class="col-lg-2 col-md-2 hidden-xs ">
                             <div class="bar__module">
-                                <a href="index.html">
+                                <a href="home.html">
                                     <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
                                     <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
                                 </a>
                             </div>
                             <!--end module-->
                         </div>
-                        <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm ">
-                            <div class="bar__module">
+                        <div class="col-lg-10 col-md-12 text-right text-left-xs text-left-sm">
+                            <div class="bar__module ">
                                 <ul class="menu-horizontal text-left ">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="index.html">About</a></li>
-                                    <li><a href="index.html">Contact</a></li>
-                                    <li><a href="index.html">FAQ</a></li>
-                               </ul>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#home">Home</a></li>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#about">About</a></li>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#faq">FAQ's</a></li>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#contact">Contact</a></li>
+                                </ul>
                             </div>
                             <!--end module-->
 <!--
                             <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="#">
+                                <a class="btn btn--sm btn--primary type--uppercase" href="http://35.154.128.219/user/login" target="_blank">
                                     <span class="btn__text">
-                                        Try Builder
-                                    </span>
-                                </a>
-                                <a class="btn btn--sm btn--primary type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Buy Now
+                                        Login
                                     </span>
                                 </a>
                             </div>
@@ -90,13 +85,14 @@
             </nav>
             <!--end bar-->
         </div>
+        
         <div class="main-container">
-            <section class="cover height-80 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true">
+            <section id="home" class="cover height-90 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true">
                 <ul class="slides">
                  
                     <li class="imagebg" data-overlay="2">
                         <div class="background-image-holder">
-                            <img alt="background" src="img/landing-3.jpg" />
+                            <img alt="background" src="img/landing-11.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
@@ -104,8 +100,8 @@
                                     <h1 class="type--bold">
                                         We are responsible <br> for your house rent and EMI!
                                     </h1>
-                                    <p class="lead">Assured rental’s Guaranteed, ensuring your complete peace of mind</p>
-                                    <a class="btn btn--primary type--uppercase" href="#">
+                                    <p class="lead">Assured rental’s. <br> Free guarantee, ensuring your complete peace of mind.</p>
+                                    <a class="btn btn--primary type--uppercase inner-link" class="inner-link" data-scroll-class="100vh:active" href="#about">
                                         <span class="btn__text">
                                             Discover
                                         </span>
@@ -121,7 +117,7 @@
             <!--end bar-->
             
             
-             <section class="text-center bg--site unpad--bottom">
+             <section id="about" class="text-center bg--site unpad--bottom">
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-md-12 col-lg-12 text-left">
@@ -352,7 +348,7 @@
 -->
             
             
-            <section class="elements-title space--xxs text-center  bg--secondary">
+            <section id="faq" class="elements-title space--xxs text-center  bg--secondary">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-left">
@@ -411,7 +407,7 @@
                     </section>
             
             
-             <section class="elements-title space--xxs text-center mt--2">
+             <section id="contact" class="elements-title space--xxs text-center mt--2">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-left">
@@ -435,10 +431,7 @@
                                 <br /> Phone: +91 83674 05615
                             </p>
                             <p class="lead">
-                                Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.
-                            </p>
-                            <p class="lead">
-                                We are open from 9am &mdash; 5pm week days.
+                                Give us a call anytime from 9am &mdash; 5pm week days, we endeavour to answer all enquiries within 24 hours on business days.
                             </p>
                         </div>
                         <div class="col-md-6 col-12">
@@ -478,23 +471,13 @@
                     <div class="row">
                         <div class="col-md-7">
                             <ul class="list-inline">
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">About</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">Contact</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">FAQ</span>
-                                    </a>
-                                </li>
+                                
+                                <li><a class="inner-link" data-scroll-class="100vh:active" href="#about"><span class="h6 type--uppercase">About</span></a></li>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#contact"> <span class="h6 type--uppercase">Contact</span></a></li>
+                                    <li><a class="inner-link" data-scroll-class="100vh:active" href="#faq"> <span class="h6 type--uppercase">FAQ</span></a></li>
                             </ul>
                         </div>
+<!--
                         <div class="col-md-5 text-right text-center-xs">
                             <ul class="social-list list-inline list--hover">
                                 <li>
@@ -519,18 +502,24 @@
                                 </li>
                             </ul>
                         </div>
+-->
                     </div>
                     <!--end of row-->
                     <div class="row">
                         <div class="col-md-7">
                             <span class="type--fine-print">&copy;
                                 <span class="update-year"></span> Inc45Homes</span>
+                            <a class="type--fine-print" href="http://vectorx.co" target="_blank">Designed and Developed by VectorX technologies</a>
+<!--
                             <a class="type--fine-print" href="#">Privacy Policy</a>
                             <a class="type--fine-print" href="#">Legal</a>
+-->
                         </div>
+<!--
                         <div class="col-md-5 text-right text-center-xs">
                             <a class="type--fine-print" href="#">Designed and Developed by VectorX technologies</a>
                         </div>
+-->
                     </div>
                     <!--end of row-->
                 </div>

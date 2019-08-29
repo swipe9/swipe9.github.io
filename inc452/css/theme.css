@@ -3201,7 +3201,7 @@ form[action*='list-manage.com'] .small-meta {
   padding: 0.46428571em 0;
 }
 .bar.bar--sm {
-  padding: 0.92857143em 0;
+  padding: 0.72857143em 0;
 }
 .bar.bar--lg {
   padding: 2.78571429em 0;
@@ -3267,6 +3267,7 @@ form[action*='list-manage.com'] .small-meta {
   }
   .bar--absolute {
     position: absolute;
+    background-color: white;
   }
   .bar--absolute,
   .pos-fixed {
@@ -4746,7 +4747,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 3.45714286em;
+  max-height: 2.6714286em;
   max-width: none;
 }
 .menu-horizontal > li > a,
@@ -4762,6 +4763,7 @@ section.parallax .row .background-image-holder {
 @media all and (min-width: 990px) {
   .menu-horizontal li:not(:last-child) {
     margin-right: 1.23809524em;
+      padding-bottom: 0.838em;
   }
   .bar__module:not(:only-child) .menu-horizontal {
     top: 0;
@@ -4788,7 +4790,7 @@ section.parallax .row .background-image-holder {
 .bar-1 .menu-horizontal > li > .dropdown__trigger,
 .bar-1 .menu-horizontal > li > a {
   font-size: 0.95714286em;
-  line-height: 2.766666666666667em;
+  line-height: 2.56em;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .5px;
