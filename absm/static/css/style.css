@@ -27,7 +27,7 @@ Table of contents
 19. Footer
 20 Contact Us
 ----------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700');
 
 
 /* Weight Classes */
@@ -45,6 +45,10 @@ Table of contents
 }
 .weight-ebold{
 	font-weight: 900;
+}
+.italic{
+    font-style: italic;
+    font-weight: 500;
 }
 
 .color-white{
