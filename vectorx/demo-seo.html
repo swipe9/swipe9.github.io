@@ -4,9 +4,6 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
-	<meta http-equiv="Content-Security-Policy" content="default-src *;
-  	 img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
-  	 style-src  'self' 'unsafe-inline' *">
 
 	<!-- Stylesheets
 	============================================= -->
@@ -27,7 +24,9 @@
 
 	<!-- Seo Demo Specific Stylesheet -->
 	<!-- <link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
-	<link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
+	<!-- <link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,,400,400i,500,600,700" rel="stylesheet">
+
 	<link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
 	<!-- / -->
 
@@ -113,9 +112,9 @@
 					<nav id="primary-menu" class="with-arrows">
 
 						<ul>
-							<li class="current"><a href="/"><div>Home</div></a></li>
-							<li><a href="#"><div>What We Do</div></a></li>
-							<li><a href="#"><div>Product</div></a></li>
+							<li class="current"><a href="#"><div>Home</div></a></li>
+							<li><a href="#services"><div>What We Do</div></a></li>
+							<li><a href="#products"><div>Product</div></a></li>
 							<!-- <li><a href="#"><div>Team</div></a></li> -->
 							<!-- <li><a href="#"><div>IoT</div></a>
 								<ul>
@@ -141,7 +140,7 @@
 
 						<!-- Menu Buttons
 						============================================= -->
-						<a href="#" class="button button-rounded fright leftmargin-sm" style="background-color:#0256b0">Contact</a>
+						<a href="#contact" class="button button-rounded fright leftmargin-sm" style="background-color:#0256b0">Contact</a>
 
 					</nav><!-- #primary-menu end -->
 
@@ -164,8 +163,8 @@
 								<h2 style="font-size:38px;">Pushing the Boundaries of Automation with Industry 4.0 IOT</h2>
 								<h3 class="text-rotater mb-2" data-separator="," data-rotate="fadeIn" data-speed="3500">-  We <span class="t-rotate" style="color:#0256b0;"> Collect , Process , Analyze , Visualize </span> data.</h3>
 								<p>With <strong>VectorX Cloud</strong>, you can collect, process, analyze, visualize and control data in real-time for improved operational efficiency and reduced costs.</p>
-								<a href="#" class="button button-rounded button-large nott ls0" style="background-color:#0256b0">Get Started</a>
-								<a href="#" class="button button-rounded button-large button-light text-dark bg-white border nott ls0">Contact Us</a>
+								<a href="#services" class="button button-rounded button-large nott ls0" style="background-color:#0256b0">Know More</a>
+								<a href="#contact" class="button button-rounded button-large button-light text-dark bg-white border nott ls0">Contact Us</a>
 							</div>
 						</div>
 					</div>
@@ -186,15 +185,27 @@
 
 			<div class="content-wrap pt-0">
 
+				<!-- <div class="section nobg m-0 border-bottom py-5">
+<div class="container">
+<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+<div class="oc-item"><a href="#"><img src="images/clients/mngl.png" alt="1"></a></div>
+<div class="oc-item"><a href="#"><img src="images/clients/nat-geo.svg" alt="Brands"></a></div>
+<div class="oc-item"><a href="#"><img src="demos/business/images/clients/jetblue.svg" alt="Brands"></a></div>
+<div class="oc-item"><a href="#"><img src="demos/business/images/clients/zillow.svg" alt="Brands"></a></div>
+<div class="oc-item"><a href="#"><img src="demos/business/images/clients/amazon.svg" alt="Brands"></a></div>
+</div>
+</div>
+</div>
+ -->
 				<!-- Client Carousel
 				============================================= -->
-				<div class="section nobg m-0 border-bottom py-5">
+				<!-- <div class="section nobg m-0 border-bottom py-5">
 					<div class="container">
-						<!-- <div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="max-width: 550px">
+						<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="max-width: 550px">
 							<h3 class="nott ls0 mb-3">Partners</h3>
-						</div> -->
+						</div>
 						<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-							<div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Brands"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/clients/mngl.png" alt="Brands" style="width: 100px; height: 50px;"></a></div>
 							<div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Brands"></a></div>
 							<div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Brands"></a></div>
 							<div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Brands"></a></div>
@@ -202,13 +213,14 @@
 						</div>
 					</div>
 				</div>
-
+ -->
 				<!-- Features
 				============================================= -->
-				<div class="section nobg mt-4 mb-0 pb-0">
+				<div class="section nobg mt-4 mb-0 pb-0" id="services">
 					<div class="container">
 						<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="max-width: 550px">
-							<div class="badge badge-pill badge-default">Services</div>
+							<!-- <div class="badge badge-pill badge-default">Services</div> -->
+							<br>
 							<h3 class="nott ls0 mb-3">What We Do</h3>
 							<p>Secure your data, gain real-time insights, boost productivity, and more. Create more efficient operations, deliver better customer experiences, and generate more revenue with VectorX.</p>
 						</div>
@@ -218,7 +230,7 @@
 
 								<div class="feature-box fbox-right noborder">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/seo.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/cloud-computing-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">Cloud Computing</h3>
 									<p>Build and scale faster with VectorX Cloud’s planet-scale computing on one of the world’s largest and fastest private networks.</p>
@@ -226,7 +238,7 @@
 
 								<div class="feature-box fbox-right noborder mt-5">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/adword.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/iot-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">IoT (Internet of Things)</h3>
 									<p>Build, manage, and monitor a network of physical objects by adding sensors and creating smart devices.</p>
@@ -234,7 +246,7 @@
 
 								<div class="feature-box fbox-right noborder mt-5">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/analysis.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/data-storage-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">Data Collection and Storage</h3>
 									<p>Collect data from your network and use advanced analytics to uncover new business insights and opportunities</p>
@@ -243,14 +255,14 @@
 							</div>
 
 							<div class="col-lg-3 col-7 offset-3 offset-sm-0 d-sm-none d-lg-block center my-5">
-								<img src="demos/seo/images/sections/2.png" alt="iphone" class="rounded  parallax" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
+								<img src="demos/seo/images/sections/what_we_do.png" alt="iphone" class="rounded  parallax" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
 							</div>
 
 							<div class="col-lg-4 col-sm-6">
 
 								<div class="feature-box noborder">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/social.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/analytics-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">Analytics and Machine Learning</h3>
 									<p>Predict needs before they arise and act with precision based on unprecedented insights from your IoT network.</p>
@@ -258,7 +270,7 @@
 
 								<div class="feature-box noborder mt-5">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/experience.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/hardware-automation-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">Hardware Automation</h3>
 									<p>From cables to circuits, our ingeniously designed physical infrastructure will serve as a great foundation to your business.</p>
@@ -266,7 +278,7 @@
 
 								<div class="feature-box noborder mt-5">
 									<div class="fbox-icon">
-										<a href="#"><img src="demos/seo/images/icons/content_marketing.svg" alt="Feature Icon" class="nobg noradius"></a>
+										<a href="#"><img src="demos/seo/images/icons/software-design-color.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
 									<h3 class="nott ls0">Software & Design</h3>
 									<p>Develop customized software & mobile applications with beautiful, functional branding and design.</p>
@@ -276,6 +288,52 @@
 
 						</div>
 					</div>
+				</div>
+
+				<div class="section nobg mt-4 mb-0 pb-0" id="products">
+					<!-- <div class="container"> -->
+						<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="max-width: 550px">
+							<!-- <div class="badge badge-pill badge-default">Products</div> -->
+							<br>
+							<h3 class="nott ls0 mb-3">Product</h3>
+							<!-- <p>Secure your data, gain real-time insights, boost productivity, and more. Create more efficient operations, deliver better customer experiences, and generate more revenue with VectorX.</p> -->
+						</div>
+
+						<div class="row justify-content-center mb-5">
+							<div class="col-lg-8">
+								<div class="row align-items-center">
+									<div class="col-sm-6 col-md-6">
+										<img src="demos/seo/images/sections/oil_and_gas_dark.png" alt="Image 1" class="">
+									</div>
+									<div class="col-sm-6">
+										<h3>Oil & Gas</h3>
+										<p class="mb-2" style="font-size: 16px;"><b>VectorX Cloud</b> is a fully managed end-to-end service to easily and securely collect and manage data from globally dispersed devices or meters specific to Oil & Gas industries. With secure device connection and management, it provides complete solution for collecting, processing, analyzing, visualizing and controlling in real-time significantly improving operational efficiency of industries.</p>
+										<!-- <a target="_blank" href="https://icons8.com" class="color btn btn-sm p-0 btn-link"><u>illustration by Ouch.pics</u> <i class="icon-line-arrow-right"></i></a> -->
+									</div>
+								</div>
+								<div class="row align-items-center mt-5">
+									<div class="col-sm-6 mb-4 mb-sm-0">
+										<h3>Water</h3>
+										<p class="mb-2" style="font-size: 16px;"><b>Smart</b> Automation Platform for remote system control, fine-tuning and real-time troubleshooting of Water Treatment Systems. Advanced <b>Spectrum</b> Analytics for giving deep insights to achieve better resource management.</p>
+										<!-- <a target="_blank" href="https://icons8.com" class="color btn btn-sm p-0 btn-link"><u>illustration by Ouch.pics</u> <i class="icon-line-arrow-right"></i></a> -->
+									</div>
+									<div class="col-sm-6">
+										<img src="demos/seo/images/sections/water_dark.png" alt="Image 1" class="">
+									</div>
+								</div>
+								<div class="row align-items-center mt-5">
+									<div class="col-sm-6">
+										<img src="demos/seo/images/sections/transportation_dark.png" alt="Image 1" class="">
+									</div>
+									<div class="col-sm-6 col-md-6">
+										<h3>Transportation</h3>
+										<p class="mb-2" style="font-size: 16px;"><b>MobilityX</b> is an Advanced Real-time GPS vehicle or asset tracking system with instant availability of historical data and notifications for immediate attentions. Customized and Seamless Software for Driver Management, Speed and Resource Monitoring.</p>
+										<!-- <a target="_blank" href="https://icons8.com" class="color btn btn-sm p-0 btn-link"><u>illustration by Ouch.pics</u> <i class="icon-line-arrow-right"></i></a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- </div> -->
 				</div>
 
 				<!-- Pricing
@@ -513,7 +571,7 @@
 
 				<!-- Testimonials
 				============================================= -->
-				<div class="section mt-2" style="">
+				<!-- <div class="section mt-2" style="">
 					<div class="container">
 						<div class="heading-block nobottomborder center">
 							<div class="badge badge-pill badge-default">Testimonials</div>
@@ -596,7 +654,7 @@
 						</div>
 					</div>
 				</div>
-
+ -->
 				<!-- Blogs
 				============================================= -->
 				<!-- <div class="container py-4">
@@ -677,7 +735,7 @@
 
 			</div>
 
-			<div class="section m-0" style="background:white; background-size: cover; padding: 0px 0 100px;">
+			<div class="section m-0" style="background:white; background-size: cover; padding: 0px 0 100px;" id="contact">
 					<div class="container">
 						<div class="row justify-content-between align-items-center">
 
