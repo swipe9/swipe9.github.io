@@ -1055,8 +1055,8 @@ body.stretched #header.full-header .container {
 
 #logo img {
 	display: block;
-	max-width: 80%;
-	max-height: 80%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 #logo a.standard-logo { display: block; }
@@ -11073,7 +11073,7 @@ body:not(.device-touch) .text-overlay {
 	color: #555555;
 	background-color: #ffffff;
 	background-image: none;
-	border: 2px solid #DDD;
+	border: 1px solid lightgrey;
 	border-radius: 0 !important;
 	-webkit-transition: border-color ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s;
@@ -11181,7 +11181,7 @@ label.error { display: none !important; }
 input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .form-control.error,
-.sm-form-control.error { border-color: #E42C3E; }
+.sm-form-control.error { border-color: #d68d8d; }
 
 
 /* ----------------------------------------------------------------
@@ -12142,7 +12142,9 @@ button.toast-close-button {
 
 .footer-logo {
 	display: block;
-	margin-bottom: 30px;
+	max-width: 20%;
+	max-height: 20%;
+	margin-bottom: 10px;
 }
 
 
